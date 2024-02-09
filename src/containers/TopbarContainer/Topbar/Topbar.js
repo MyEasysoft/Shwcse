@@ -238,19 +238,7 @@ class TopbarComponent extends Component {
           </Button>
         </div>
         <div className={css.desktop}>
-          <TopbarDesktop
-            className={desktopClassName}
-            currentUserHasListings={currentUserHasListings}
-            currentUser={currentUser}
-            currentPage={currentPage}
-            initialSearchFormValues={initialSearchFormValues}
-            intl={intl}
-            isAuthenticated={isAuthenticated}
-            notificationCount={notificationCount}
-            onLogout={this.handleLogout}
-            onSearchSubmit={this.handleSubmit}
-            appConfig={config}
-          />
+         
         </div>
         <Modal
           id="TopbarMobileMenu"
