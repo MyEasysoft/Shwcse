@@ -17,7 +17,7 @@ import {
   fakeIntl,
   createTransaction,
   createBooking,
-  createMessage,
+  creShwcseessage,
 } from '../../util/testData';
 import {
   getHostedConfiguration,
@@ -93,8 +93,8 @@ describe('TransactionPage', () => {
     },
     intl: fakeIntl,
     messages: [
-      createMessage('msg1', {}, { sender: provider }),
-      createMessage('msg2', {}, { sender: customer }),
+      creShwcseessage('msg1', {}, { sender: provider }),
+      creShwcseessage('msg2', {}, { sender: customer }),
     ],
     params: {
       id: 'tx-id',

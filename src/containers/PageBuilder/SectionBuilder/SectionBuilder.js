@@ -8,7 +8,6 @@ import SectionCarousel from './SectionCarousel';
 import SectionColumns from './SectionColumns';
 import SectionFeatures from './SectionFeatures';
 
-
 // Styles
 // Note: these contain
 // - shared classes that are passed as defaultClasses
@@ -17,22 +16,16 @@ import SectionFeatures from './SectionFeatures';
 import css from './SectionBuilder.module.css';
 import SectionFooter from './SectionFooter';
 import { H2, ListingCard } from '../../../components';
-import SearchPage from '../../SearchPage/SearchPageWithMap';
 
-import devOps from '../../../assets/devops2.png';
-import kubernates from '../../../assets/kubernates2.png';
-import docker from '../../../assets/docker2.png';
-import jenkins from '../../../assets/jenkins2.png';
-import azure from '../../../assets/azure.png';
-import gitlab from '../../../assets/gitlab2.png';
-import aws from '../../../assets/aws2.png';
-import googlecloud from '../../../assets/googlecloud2.png';
-
+import CustomSectionComponent0 from '../../../components/CustomSection/CustomSection0';
+import CustomSectionComponent1 from '../../../components/CustomSection/CustomSection1';
 import CustomSectionComponent2 from '../../../components/CustomSection/CustomSection2';
 import CustomSectionComponent3 from '../../../components/CustomSection/CustomSection3';
 import CustomSectionComponent4 from '../../../components/CustomSection/CustomSection4';
-
-
+import CustomSectionComponent5 from '../../../components/CustomSection/CustomSection5';
+import CustomSectionComponent6 from '../../../components/CustomSection/CustomSection6';
+import ReactImageGallery from 'react-image-gallery';
+import Carousel from '../../../components/CustomSection/Carousel';
 
 // These are shared classes.
 // Use these to have consistent styles between different section components
@@ -82,6 +75,7 @@ const SectionBuilder = props => {
   let first = true;
   return (
     <>
+      
     
       {sections.map((section, index) => {
         const Section = getComponent(section.sectionType);
@@ -93,27 +87,10 @@ const SectionBuilder = props => {
         const listing = first?<H2 className={css.listing}>Listings will be loaded soon</H2>:"";
         //console.log(index+"                 dddddddddddddddddddddddddddddddddddddddddddddddddd");
 
-       
-        
-        first = false;
-
-        if (Section) {
           return (
             <>
-             
-             
              {index === 0? (
-              <>
-            
-             
-              </>
-                
-              ) : ""}
-
-              
-
-              {index === 1? (
-                <CustomSectionComponent2
+               <CustomSectionComponent0
                   key={`${section.sectionId}_${index}`}
                   className={classes}
                   defaultClasses={DEFAULT_CLASSES}
@@ -121,10 +98,11 @@ const SectionBuilder = props => {
                   options={otherOption}
                   {...section}
                 />
+                
               ) : ""}
 
-              {index === 2? (
-               <CustomSectionComponent3
+              {index === 1? (
+                <CustomSectionComponent1
                 key={`${section.sectionId}_${index}`}
                 className={classes}
                 defaultClasses={DEFAULT_CLASSES}
@@ -134,111 +112,76 @@ const SectionBuilder = props => {
               />
               ) : ""}
 
+              {index === 2? (
+               <CustomSectionComponent2
+               key={`${section.sectionId}_${index}`}
+               className={classes}
+               defaultClasses={DEFAULT_CLASSES}
+               isInsideContainer={isInsideContainer}
+               options={otherOption}
+               {...section}
+             />
+              ) : ""}
+
               {index === 3? (
-                ""
+                
+
+               <Carousel
+               key={`${section.sectionId}_${index}`}
+               className={classes}
+               defaultClasses={DEFAULT_CLASSES}
+               isInsideContainer={isInsideContainer}
+               options={otherOption}
+               {...section}
+              
+              />
+
+
               ) :""}
 
               {index === 4? (
-                ""
+                <CustomSectionComponent4
+                key={`${section.sectionId}_${index}`}
+                className={classes}
+                defaultClasses={DEFAULT_CLASSES}
+                isInsideContainer={isInsideContainer}
+                options={otherOption}
+                {...section}
+              />
               ) :""}
 
               {index === 5? (
-                ""
+                <CustomSectionComponent5
+                key={`${section.sectionId}_${index}`}
+                className={classes}
+                defaultClasses={DEFAULT_CLASSES}
+                isInsideContainer={isInsideContainer}
+                options={otherOption}
+                {...section}
+              />
               ) :""}
 
               {index === 6? (
-                ""
-              ) :""}
-
-              {index === 7? (
-                ""
-              ) :""}
-
-              {index === 8? (
-                ""
-              ) :""}
-
-              {index === 9? (
-                ""
-              ) :""}
-
-              {index === 10? (
-                ""
+                <CustomSectionComponent6
+                key={`${section.sectionId}_${index}`}
+                className={classes}
+                defaultClasses={DEFAULT_CLASSES}
+                isInsideContainer={isInsideContainer}
+                options={otherOption}
+                {...section}
+              />
               ) :""}
 
 
             </>
            
           );
-        } else {
-          // If the section type is unknown, the app can't know what to render
-          console.warn(`Unknown section type (${section.sectionType}) detected.`);
-          return null;
-        }
-
-
+      
         
       })}
     </>
   );
 };
-
-const ListingView = props =>{
-  //listings[0].id.uuid
-  const{listings,images} = props;
-  const lists = listings;
-  
-  const hasListings = lists !== undefined;
-   if(hasListings){
-    return <div>     
-      <ul>
-        <div className={classNames(css.textCenter,css.marginT) }><h2 >Our Developers</h2></div>
-        <div className={css.mainContainer}>
-                  <div className={classNames(css.container, css.marginB)}> 
-
-           {hasListings?
-               lists.map((list,index)=>{
-                if(index > 5)return "";
-      
-               return (
-                
-                    ""
-         
-               )
-               
-               
-            })
-           :""
-           }
-         
-         </div>
-        </div>
-      </ul>
-    </div>
-   }
-  return(
-    ""
-  );
-}
-
-const Partners = props =>{
-  const {first} = props;
-  console.log(first + "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiSectionBuilderidddddddddddddddddddddddddddd");
-  //if(!first)return;
-  return(
-    <div className={css.partners}>
-      <span className={css.tech}>Technologies:</span>
-      <img src={devOps}/>
-      <img src={kubernates}/>
-      <img src={docker}/>
-      <img className={css.jenk} src={jenkins}/>
-      <img src={azure}/>
-      <img src={gitlab}/>
-      <img src={aws}/>
-      <img src={googlecloud}/>
-    </div>
-  );
-}
 
 const propTypeSection = shape({
   sectionId: string.isRequired,

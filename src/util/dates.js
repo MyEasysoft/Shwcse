@@ -161,7 +161,7 @@ export const isSameDay = (date1, date2, timeZone) => {
  * @returns {boolean} is date in range
  */
 export const isInRange = (date, start, end, timeUnit, timeZone) => {
-  const dateMoment = timeZone ? moment(date).tz(timeZone) : moment(date);
+  const dShwcseoment = timeZone ? moment(date).tz(timeZone) : moment(date);
   // Range usually ends with 00:00, and with day timeUnit,
   // this means that exclusive end is wrongly taken into range.
   // Note about timeUnit with isBetween: in the event that the from and to parameters are the same,
@@ -169,7 +169,7 @@ export const isInRange = (date, start, end, timeUnit, timeZone) => {
   // aka moment('2016-10-30').isBetween('2016-10-30', '2016-10-30', undefined, '(]'); //false
   // => we need to use []
   const millisecondBeforeEndTime = new Date(end.getTime() - 1);
-  return dateMoment.isBetween(start, millisecondBeforeEndTime, timeUnit, '[]');
+  return dShwcseoment.isBetween(start, millisecondBeforeEndTime, timeUnit, '[]');
 };
 
 /**

@@ -1,0 +1,438 @@
+.container{
+    position: relative;
+    float: left;
+    margin: 7% 7% 3% 7%;
+    border-radius: 50px;
+    color: rgb(14, 13, 13);
+}
+
+.col_1p0{
+    position: relative;
+    float: left;
+    width: 12%;
+    min-width: 350px;
+}
+
+.col_1p{
+    position: relative;
+    float: left;
+    width: 8.3%;
+    min-width: 350px;
+}
+
+
+.col_2{
+    position: relative;
+    float: left;
+    width: 16.6%;
+    min-width: 350px;
+}
+
+
+.col_3{
+    position: relative;
+    float: left;
+    width: 25%;
+    min-width: 350px;
+}
+
+.col_4{
+    position: relative;
+    float: left;
+    width: 33%;
+    min-width: 350px;
+}
+
+.col_5{
+    position: relative;
+    float: left;
+    width: 41.5%;
+    min-width: 350px;
+}
+
+.col_6{
+    position: relative;
+    float: left;
+    width: 49.8%;
+    min-width: 350px;
+    height: 100%;
+}
+
+.col_7{
+    position: relative;
+    float: left;
+    width: 58.1%;
+    min-width: 350px;
+}
+
+.col_8{
+    position: relative;
+    float: left;
+    width: 64.8%;
+    min-width: 350px;
+}
+
+.col_9{
+    position: relative;
+    float: left;
+    width: 74.7%;
+    
+    min-width: 350px;
+}
+
+.col_10{
+    position: relative;
+    float: left;
+    width: 83%;
+    min-width: 350px;
+}
+
+.col_12{
+    position: relative;
+    float: left;
+    width: 100%;
+    min-width: 350px;
+}
+
+.h_2{
+    height: 20%;
+}
+.h_3{
+    height: 30%;
+}
+.h_4{
+    height: 40%;
+}
+.h_5{
+    height: 50%;
+}
+.h_6{
+    height: 60%;
+}
+
+.h_7{
+    height: 70%;
+}
+.h_8{
+    height: 80%;
+}
+
+.h_abs_7{
+    height: 700px;
+}
+
+.resize{
+    width: 94%;
+    height: 94%;
+    margin: 3%;
+}
+
+.addHeight_1{
+    height:calc(100%+10px);
+}
+
+.subHeight_1{
+    height:calc(100%-50px);
+}
+
+
+.login_btn{
+    padding: 30px 50px;
+    border-radius: 70px;
+    
+    background-color: rgb(47, 202, 202);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 30px;
+  
+    &:hover{
+      border-style: solid;
+      background-color:transparent;
+      border-color: rgb(47, 202, 150);
+      color: black;
+      text-decoration: none;
+      transition: 1s;
+    }
+  }
+
+  .flex_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+  }
+
+  .flex_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    align-content: center;
+  }
+
+
+
+.flex_row_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.no_bg_input{
+    border-style: none;;
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-bottom-color: rgb(168, 166, 166);
+}
+
+
+
+
+
+  .pad_50{
+    padding:0px 50px;
+  }
+
+  .pad_20{
+    padding: 20px;
+  }
+
+  .mag_y_50{
+    margin: 30px 0px ;
+  }
+
+  .mag_b{
+    margin-bottom: 0px;
+    
+  }
+
+  .mag_t{
+    margin-top: 55px;
+  }
+
+  
+
+  .text_14{
+    font-size: 14px;
+  }
+  .text_20{
+    font-size: 20px;
+  }
+  .text_30{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .text_40{
+    font-size: 40px;
+  }
+  .text_50{
+    font-size: 50px;
+  }
+
+  .text_white{
+    color:white;
+  }
+
+  .font_wg_200{
+    font-weight: 200;
+  }
+
+  
+  .font_wg_300{
+    font-weight: 300;
+  }
+
+  
+  .font_wg_400{
+    font-weight: 400;
+  }
+
+  .letter_space_10{
+    letter-spacing: 10px;
+  }
+  .letter_space_20{
+    letter-spacing: 20px;
+  }
+
+  .text_center{
+    text-align: center;
+    width: 100%;
+  }
+  
+
+  .mobile{
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .mobile{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 90%;
+      margin: 5%;
+      padding: 0px;
+      text-align: center;
+      margin-top: 50px;
+      text-align: center;
+
+      
+    }
+
+    
+
+  .desktop{
+    display: none;
+  }
+   
+  
+.resize{
+  width: 90%;
+  margin: 5%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.mobile input{
+  width: 90%;
+  margin: 5%;
+  
+}
+
+.mobile h3{
+  line-height: 45px;
+}
+
+.mobile p{
+  text-align: center;
+}
+
+.login_btn{
+  margin: 0px;
+  padding: 20px 20px;
+}
+
+.login_btn:hover{
+  border-style: solid;
+  background-color: transparent;
+}
+
+  }
+   
+   @media only screen and (max-width: 412px) {
+    
+    .mobile{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 90%;
+      margin: 5%;
+      padding: 0px;
+      text-align: center;
+      margin-top: 50px;
+      text-align: center;
+
+      
+    }
+
+    
+
+  .desktop{
+    display: none;
+  }
+   
+  
+.resize{
+  width: 90%;
+  margin: 5%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.mobile input{
+  width: 90%;
+  margin: 5%;
+  
+}
+
+.mobile h3{
+  line-height: 45px;
+}
+
+.mobile p{
+  text-align: center;
+}
+
+.login_btn{
+  margin: 0px;
+  padding: 20px 20px;
+}
+
+.login_btn:hover{
+  border-style: solid;
+  background-color: transparent;
+}
+
+   }
+   
+   
+   @media only screen and (max-width: 360px) {
+    .mobile{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 90%;
+      margin: 5%;
+      padding: 0px;
+      text-align: center;
+      margin-top: 50px;
+      text-align: center;
+
+      
+    }
+
+    
+
+  .desktop{
+    display: none;
+  }
+   
+  
+.resize{
+  width: 90%;
+  margin: 5%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.mobile input{
+  width: 90%;
+  margin: 5%;
+  
+}
+
+.mobile h3{
+  line-height: 45px;
+}
+
+.mobile p{
+  text-align: center;
+}
+
+.login_btn{
+  margin: 0px;
+  padding: 20px 20px;
+}
+
+.login_btn:hover{
+  border-style: solid;
+  background-color: transparent;
+}
+     
+     
+   
+   }

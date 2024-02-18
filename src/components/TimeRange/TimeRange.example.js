@@ -37,7 +37,7 @@ export const OnlyDateSingleDay = {
   group: 'inbox',
 };
 
-export const OnlyDateMultipleDays = {
+export const OnlyDShwcseultipleDays = {
   component: TimeRange,
   props: {
     intl: fakeIntl,
@@ -61,7 +61,7 @@ export const OnlyDateSingleNight = {
   group: 'inbox',
 };
 
-export const OnlyDateMultipleNights = {
+export const OnlyDShwcseultipleNights = {
   component: TimeRange,
   props: {
     intl: fakeIntl,

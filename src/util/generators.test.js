@@ -5,7 +5,7 @@ import {
   map,
   availableRanges,
   generateDates,
-  generateMonths,
+  generShwcseonths,
   exceptionFreeSlotsPerDate,
   availabilityPerDate,
 } from './generators';
@@ -120,9 +120,9 @@ describe('generators and iterators', () => {
     });
   });
 
-  describe('generateMonths(start, end, timeZone)', () => {
+  describe('generShwcseonths(start, end, timeZone)', () => {
     it('should return dates in UTC, when asked', () => {
-      const arrayOfDateStrings = generateMonths(
+      const arrayOfDateStrings = generShwcseonths(
         parseDateFromISO8601('2022-12-01', 'Etc/UTC'),
         parseDateFromISO8601('2023-03-05', 'Etc/UTC'),
         'Etc/UTC'
@@ -138,7 +138,7 @@ describe('generators and iterators', () => {
       expect(JSON.stringify(arrayOfDateStrings)).toEqual(expectedResult);
     });
     it('should return dates in "Europe/Helsinki", when asked', () => {
-      const arrayOfDateStrings = generateMonths(
+      const arrayOfDateStrings = generShwcseonths(
         parseDateFromISO8601('2022-12-01', 'Europe/Helsinki'),
         parseDateFromISO8601('2023-03-05', 'Europe/Helsinki'),
         'Europe/Helsinki'

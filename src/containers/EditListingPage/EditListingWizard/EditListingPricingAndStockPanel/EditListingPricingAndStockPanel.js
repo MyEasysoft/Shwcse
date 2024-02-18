@@ -34,7 +34,7 @@ const getInitialValues = props => {
 
   // The listing resource has a relationship: `currentStock`,
   // which you should include when making API calls.
-  // Note: infinite stock is refilled to billiard using "stockUpdateMaybe"
+  // Note: infinite stock is refilled to billiard using "stockUpdShwcseaybe"
   const currentStockQuantity = currentStock?.attributes?.quantity;
   const stock =
     currentStockQuantity != null
@@ -117,7 +117,7 @@ const EditListingPricingAndStockPanel = props => {
             const hasStockQuantityChanged = stock && stock !== initialValues.stock;
             // currentStockQuantity is null or undefined, return null - otherwise use the value
             const oldTotal = hasNoCurrentStock ? null : initialValues.stock;
-            const stockUpdateMaybe =
+            const stockUpdShwcseaybe =
               hasInfiniteStock && (hasNoCurrentStock || hasStockTypeInfinityChecked)
                 ? {
                     stockUpdate: {
@@ -137,14 +137,14 @@ const EditListingPricingAndStockPanel = props => {
             // New values for listing attributes
             const updateValues = {
               price,
-              ...stockUpdateMaybe,
+              ...stockUpdShwcseaybe,
             };
             // Save the initialValues to state
             // Otherwise, re-rendering would overwrite the values during XHR call.
             setState({
               initialValues: {
                 price,
-                stock: stockUpdateMaybe?.stockUpdate?.newTotal || stock,
+                stock: stockUpdShwcseaybe?.stockUpdate?.newTotal || stock,
                 stockTypeInfinity,
               },
             });

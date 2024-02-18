@@ -1,48 +1,66 @@
 import React from 'react';
-import css from './CustomSection.module.css';
+import css from './CustomSection2.module.css';
 
-import w1 from '../../assets/banner.png';
+import img3 from '../../assets/img3.PNG';
+import img4 from '../../assets/img4.PNG';
+import img5 from '../../assets/img5.PNG';
+import slidder from '../../assets/slidder.PNG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMessage, faHeart, faSignIn, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import classNames from 'classnames';
 
 
 const CustomSectionComponent2 = props =>{
 
-    const {sectionName, description,blocks} = props;
-    const content = blocks[0].text.content;
-    const title = blocks[0].title;
+    // const {sectionName, description,blocks} = props;
+    // const content = blocks[0].text.content;
+    // const title = blocks[0].title;
 
   return (
    
     <>
 
-    <div className={css.container +' '+ css.textCenter}>
-        <div className={css.containerMain}>
-        <div className={css.d_inline_top}>
-            <a className={css.btn} href='www.golfer.com'>List My Clubs </a>
-            <a href='www.golfer.com'>Why #RentLocal</a>
-            <a href='www.golfer.com'>Help </a>
-            <a href='www.golfer.com'>Inbox</a>
+      <div className={classNames(css.container, css.desktop)}>
+
+        <div className={css.flex_row_normal}>
+            <img className={css.margin_top_small} src={slidder}/>
+            <h1 className={classNames( css.show, css.text_no_wrap)}>
+              Locations?
+            </h1>
             
-          </div> 
-          <div className={css.d_inline}>
-            <a href='www.golfer.com'>Golf Digest</a>
-            <a href='www.golfer.com'>LINKS Magazine</a>
-            <a href='www.golfer.com'>LIV Golf </a>
-            <a href='www.golfer.com'>Golf Monthly</a>
-            <a href='www.golfer.com'>TaylorMade</a>
-          </div> 
-
-
-        </div>
-        <div className={css.bg_gray}>
-           <h4>Wedgeaway offer of thousand of golf club sets from local golfer accross the US</h4> 
         </div>
 
-       
-        
-		
-	</div>
+        <div>
+          <div className={css.col45}><img className={css.resize_image} src={img3}/></div>
+          <div className={css.col20}><img className={css.resize_image} src={img4}/></div>
+          <div className={css.col35}><img className={css.resize_image} src={img5}/></div>
+        </div>
+
+      </div>
+
+      <div className={classNames(css.container, css.desktop)}>
+        <div>
+          <div className={css.col20}><img className={css.resize_image} src={img4}/></div>
+          <div className={css.col35}><img className={css.resize_image} src={img5}/></div>
+          <div className={css.col45}><img className={css.resize_image} src={img3}/></div>
+        </div>
+
+      </div>
+
+      <div className={classNames(css.mobile,css.mag_t_50)}>
+            <h1>
+                Locations?
+            </h1>
+            <img className={css.h_20}  src={slidder}/>
+            <img className={css.resize_image} src={img3}/>
+            <img className={css.resize_image} src={img4}/>
+            <img className={css.resize_image} src={img5}/>
+           <img className={css.resize_image} src={img4}/>
+            <img className={css.resize_image} src={img5}/>
+            <img className={css.resize_image} src={img3}/>
+      </div>
+
+
     
    
     </>

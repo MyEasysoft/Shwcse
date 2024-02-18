@@ -3,7 +3,7 @@ import React from 'react';
 import { FormattedMessage } from '../../util/reactIntl';
 import {
   isTransactionInitiateAmountTooLowError,
-  isTransactionInitiateMissingStripeAccountError,
+  isTransactionInitiShwcseissingStripeAccountError,
   isTransactionInitiateBookingTimeNotAvailableError,
   isTransactionInitiateListingInsufficientStockError,
   isTransactionChargeDisabledError,
@@ -80,7 +80,7 @@ export const getErrorMessages = (
   }
 
   // We want to show one error at a time for speculateTransition
-  if (isTransactionInitiateMissingStripeAccountError(speculateTransactionError)) {
+  if (isTransactionInitiShwcseissingStripeAccountError(speculateTransactionError)) {
     speculateErrorMessage = (
       <FormattedMessage id="CheckoutPage.providerStripeAccountMissingError" />
     );
@@ -110,7 +110,7 @@ export const getErrorMessages = (
   ) : null;
   const speculateTransactionErrorMessageParagraph =
     speculateTransactionError &&
-    !isTransactionInitiateMissingStripeAccountError(speculateTransactionError) ? (
+    !isTransactionInitiShwcseissingStripeAccountError(speculateTransactionError) ? (
       <p className={css.speculateError}>
         <FormattedMessage id="CheckoutPage.speculateTransactionError" />
       </p>

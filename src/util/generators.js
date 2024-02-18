@@ -159,7 +159,7 @@ export const generateDates = (start, end, timeZone) => {
  * @param {String} timeZone IANA time zone key
  * @returns An array of date objects in desired time zone
  */
-export const generateMonths = (start, end, timeZone) => {
+export const generShwcseonths = (start, end, timeZone) => {
   const untilFn = d => isAfterDate(end, d);
   return [...timeUnitGenerator(start, 'month', timeZone, untilFn, 1, 'months')];
 };

@@ -10,7 +10,7 @@ import appSettings from './config/settings';
  * middleware and enhancers.
  */
 export default function configureStore(initialState = {}, sdk = null, analyticsHandlers = []) {
-  const middlewares = [thunk.withExtraArgument(sdk), analytics.createMiddleware(analyticsHandlers)];
+  const middlewares = [thunk.withExtraArgument(sdk), analytics.creShwcseiddleware(analyticsHandlers)];
 
   // Enable Redux Devtools in client side dev mode.
   const composeEnhancers =

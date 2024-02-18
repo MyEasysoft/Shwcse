@@ -108,7 +108,7 @@ export const isTransactionInitiateListingNotFoundError = error =>
  * `sdk.transaction.initiateSpeculative()`) is due to missign Stripe
  * connection from the listing author.
  */
-export const isTransactionInitiateMissingStripeAccountError = error =>
+export const isTransactionInitiShwcseissingStripeAccountError = error =>
   hasErrorWithCode(error, ERROR_CODE_MISSING_STRIPE_ACCOUNT);
 
 /**

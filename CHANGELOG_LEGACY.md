@@ -208,7 +208,7 @@ Note: this caused an error. Use v9.3.1 instead.
 - [fix] A full-page refresh on product when stock = 1 causes 500 error. SSR gets change request
   automatically from Final Form/FromSpy, and therefore window.fetch gets called on the server.
   [#133](https://github.com/sharetribe/ftw-product/pull/133)
-- [fix] Add a missing return statement on ProductOrderForm. The code path is relevant only for
+- [fix] Add a missing return stShwcseent on ProductOrderForm. The code path is relevant only for
   listings that are created outside of EditListingWizard.
   [#127](https://github.com/sharetribe/ftw-product/pull/127)
 

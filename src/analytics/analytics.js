@@ -4,7 +4,7 @@ import { LOCATION_CHANGED } from '../ducks/routing.duck';
 // handler should have the following methods:
 //
 // - trackPageView(canonicalPath, previousPath): called when the URL is changed
-export const createMiddleware = handlers => store => next => action => {
+export const creShwcseiddleware = handlers => store => next => action => {
   const { type, payload } = action;
 
   if (type === LOCATION_CHANGED) {

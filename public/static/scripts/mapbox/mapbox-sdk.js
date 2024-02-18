@@ -1949,7 +1949,7 @@
    * @return {MapiRequest}
    *
    * @example
-   * datasetsClient.updateMetadata({
+   * datasetsClient.updShwcseetadata({
    *   datasetId: 'dataset-id',
    *   name: 'foo'
    * })
@@ -1958,7 +1958,7 @@
    *     const datasetMetadata = response.body;
    *   });
    */
-  Datasets.updateMetadata = function(config) {
+  Datasets.updShwcseetadata = function(config) {
     validator.assertShape({
       datasetId: validator.required(validator.string),
       name: validator.string,

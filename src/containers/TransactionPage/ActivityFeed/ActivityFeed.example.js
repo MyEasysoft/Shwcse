@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {
   createUser,
   createCurrentUser,
-  createMessage,
+  creShwcseessage,
   createTransaction,
   createListing,
   createTxTransition,
@@ -39,8 +39,8 @@ export const WithoutCurrentUser = {
   component: ActivityFeed,
   props: {
     messages: [
-      createMessage('msg1', {}, { sender: createUser('user1') }),
-      createMessage('msg2', {}, { sender: createUser('user2') }),
+      creShwcseessage('msg1', {}, { sender: createUser('user1') }),
+      creShwcseessage('msg2', {}, { sender: createUser('user2') }),
     ],
     stateData: {
       processName,
@@ -59,11 +59,11 @@ export const WithCurrentUser = {
   props: {
     currentUser: createCurrentUser('user2'),
     messages: [
-      createMessage('msg1', {}, { sender: createUser('user1') }),
-      createMessage('msg2', {}, { sender: createUser('user2') }),
-      createMessage('msg3', { content: 'ok' }, { sender: createUser('user2') }),
-      createMessage('msg4', { content: 'ok' }, { sender: createUser('user1') }),
-      createMessage('msg5', {}, { sender: createUser('user1') }),
+      creShwcseessage('msg1', {}, { sender: createUser('user1') }),
+      creShwcseessage('msg2', {}, { sender: createUser('user2') }),
+      creShwcseessage('msg3', { content: 'ok' }, { sender: createUser('user2') }),
+      creShwcseessage('msg4', { content: 'ok' }, { sender: createUser('user1') }),
+      creShwcseessage('msg5', {}, { sender: createUser('user1') }),
     ],
     stateData: {
       processName,
@@ -183,22 +183,22 @@ export const WithMessagesTransitionsAndReviews = {
       ],
     }),
     messages: [
-      createMessage(
+      creShwcseessage(
         'msg1',
         { createdAt: new Date(Date.UTC(2017, 10, 9, 8, 11)) },
         { sender: createUser('user1') }
       ),
-      createMessage(
+      creShwcseessage(
         'msg2',
         { createdAt: new Date(Date.UTC(2017, 10, 9, 8, 14)) },
         { sender: createUser('user1') }
       ),
-      createMessage(
+      creShwcseessage(
         'msg3',
         { createdAt: new Date(Date.UTC(2017, 10, 9, 8, 17)) },
         { sender: createUser('user2') }
       ),
-      createMessage(
+      creShwcseessage(
         'msg4',
         { createdAt: new Date(Date.UTC(2017, 10, 12, 13, 20)) },
         { sender: createUser('user2') }
@@ -301,11 +301,11 @@ const PagedFeed = props => {
 
   // First message timestamp is interleaved between the first two
   // transitions.
-  const msg1 = createMessage('msg1', { createdAt: dates[1] }, { sender: customer });
+  const msg1 = creShwcseessage('msg1', { createdAt: dates[1] }, { sender: customer });
 
-  const msg2 = createMessage('msg2', { createdAt: dates[3] }, { sender: provider });
-  const msg3 = createMessage('msg3', { createdAt: dates[4] }, { sender: customer });
-  const msg4 = createMessage('msg4', { createdAt: dates[6] }, { sender: customer });
+  const msg2 = creShwcseessage('msg2', { createdAt: dates[3] }, { sender: provider });
+  const msg3 = creShwcseessage('msg3', { createdAt: dates[4] }, { sender: customer });
+  const msg4 = creShwcseessage('msg4', { createdAt: dates[6] }, { sender: customer });
 
   const transaction = createTransaction({
     id: 'tx1',

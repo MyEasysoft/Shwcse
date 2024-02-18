@@ -32,7 +32,6 @@
   align-items: center;
   
   justify-content: space-between;
-  background-image: url('/src/assets/banner.png');
   height: 92vh;
   background-size: contain;
   background-repeat: no-repeat;
@@ -451,48 +450,37 @@ margin-top: 80px;
 }
 
 
-
 @media only screen and (max-width: 768px) {
-  .mobilec2{
+  .mobile{
     display: block;
-    width: 100%;
-  }
-  .desktop{
-    display: none;
-  }
-}
-
-
-@media only screen and (max-width: 412px) {
-  .mobilec2{
-    display: block;
-    width: 100%;
-    padding: 40px;
   }
 
   .desktop{
     display: none;
   }
 }
-
-
-@media only screen and (max-width: 360px) {
-  .mobilec2{
+ 
+ @media only screen and (max-width: 412px) {
+  
+  .mobile{
     display: block;
-    width: 95%;
-    padding: 40px;
   }
 
   .desktop{
     display: none;
   }
-
-  .imgFluid{
-    width: 100%;
-    height: auto;
+ 
+ }
+ 
+ 
+ @media only screen and (max-width: 360px) {
+  .mobile{
+    display: block;
   }
-  .description {
+
+  .desktop{
+    display: none;
+  }
    
-    line-height: 43px;
-  }
-}
+ 
+ }

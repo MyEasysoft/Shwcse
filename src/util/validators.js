@@ -84,19 +84,19 @@ export const autocompletePlaceSelected = message => value => {
   return selectedPlaceIsValid ? VALID : message;
 };
 
-export const bookingDateRequired = inValidDateMessage => value => {
+export const bookingDateRequired = inValidDShwcseessage => value => {
   const dateIsValid = value && value.date instanceof Date;
-  return !dateIsValid ? inValidDateMessage : VALID;
+  return !dateIsValid ? inValidDShwcseessage : VALID;
 };
 
-export const bookingDatesRequired = (inValidStartDateMessage, inValidEndDateMessage) => value => {
+export const bookingDatesRequired = (inValidStartDShwcseessage, inValidEndDShwcseessage) => value => {
   const startDateIsValid = value && value.startDate instanceof Date;
   const endDateIsValid = value && value.endDate instanceof Date;
 
   if (!startDateIsValid) {
-    return inValidStartDateMessage;
+    return inValidStartDShwcseessage;
   } else if (!endDateIsValid) {
-    return inValidEndDateMessage;
+    return inValidEndDShwcseessage;
   } else {
     return VALID;
   }

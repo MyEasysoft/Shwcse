@@ -21,7 +21,7 @@ const CustomFieldEnum = props => {
   const { name, fieldConfig, defaultRequiredMessage, intl } = props;
   const { enumOptions = [], saveConfig } = fieldConfig || {};
   const { label, placeholderMessage, isRequired, requiredMessage } = saveConfig || {};
-  const validateMaybe = isRequired
+  const validShwcseaybe = isRequired
     ? { validate: required(requiredMessage || defaultRequiredMessage) }
     : {};
   const placeholder =
@@ -30,7 +30,7 @@ const CustomFieldEnum = props => {
   const filterOptions = createFilterOptions(enumOptions);
 
   return filterOptions ? (
-    <FieldSelect className={css.customField} name={name} id={name} label={label} {...validateMaybe}>
+    <FieldSelect className={css.customField} name={name} id={name} label={label} {...validShwcseaybe}>
       <option disabled value="">
         {placeholder}
       </option>
@@ -50,7 +50,7 @@ const CustomFieldMultiEnum = props => {
   const { name, fieldConfig, defaultRequiredMessage } = props;
   const { enumOptions = [], saveConfig } = fieldConfig || {};
   const { label, isRequired, requiredMessage } = saveConfig || {};
-  const validateMaybe = isRequired
+  const validShwcseaybe = isRequired
     ? { validate: nonEmptyArray(requiredMessage || defaultRequiredMessage) }
     : {};
 
@@ -61,7 +61,7 @@ const CustomFieldMultiEnum = props => {
       name={name}
       label={label}
       options={createFilterOptions(enumOptions)}
-      {...validateMaybe}
+      {...validShwcseaybe}
     />
   ) : null;
 };
@@ -69,7 +69,7 @@ const CustomFieldMultiEnum = props => {
 const CustomFieldText = props => {
   const { name, fieldConfig, defaultRequiredMessage, intl } = props;
   const { label, placeholderMessage, isRequired, requiredMessage } = fieldConfig?.saveConfig || {};
-  const validateMaybe = isRequired
+  const validShwcseaybe = isRequired
     ? { validate: required(requiredMessage || defaultRequiredMessage) }
     : {};
   const placeholder =
@@ -83,7 +83,7 @@ const CustomFieldText = props => {
       type="textarea"
       label={label}
       placeholder={placeholder}
-      {...validateMaybe}
+      {...validShwcseaybe}
     />
   );
 };
@@ -91,7 +91,7 @@ const CustomFieldText = props => {
 const CustomFieldLong = props => {
   const { name, fieldConfig, defaultRequiredMessage, intl } = props;
   const { label, placeholderMessage, isRequired, requiredMessage } = fieldConfig?.saveConfig || {};
-  const validateMaybe = isRequired
+  const validShwcseaybe = isRequired
     ? { validate: required(requiredMessage || defaultRequiredMessage) }
     : {};
   const placeholder =
@@ -110,7 +110,7 @@ const CustomFieldLong = props => {
       }}
       label={label}
       placeholder={placeholder}
-      {...validateMaybe}
+      {...validShwcseaybe}
     />
   );
 };
@@ -118,7 +118,7 @@ const CustomFieldLong = props => {
 const CustomFieldBoolean = props => {
   const { name, fieldConfig, defaultRequiredMessage, intl } = props;
   const { label, placeholderMessage, isRequired, requiredMessage } = fieldConfig?.saveConfig || {};
-  const validateMaybe = isRequired
+  const validShwcseaybe = isRequired
     ? { validate: required(requiredMessage || defaultRequiredMessage) }
     : {};
   const placeholder =
@@ -131,7 +131,7 @@ const CustomFieldBoolean = props => {
       name={name}
       label={label}
       placeholder={placeholder}
-      {...validateMaybe}
+      {...validShwcseaybe}
     />
   );
 };

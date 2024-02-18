@@ -41,7 +41,7 @@
   /* B&W and Grey palette */
 
   --colorWhite: hsl(0 0% 100%);
-  --colorGrey50: hsl(240 3% 98%);
+  --colorGrey50: rgb(244, 241, 233);
   --colorGrey100: hsl(240 3% 90%);
   --colorGrey200: hsl(240 3% 80%);
   --colorGrey300: hsl(240 3% 70%);
@@ -56,8 +56,7 @@
   --colorLightTransparent: rgba(255, 255, 255, 0.65);
 
   /* ================ Font ================ */
-  --fontFamily: -apple-system, BlinkMacSystemFont, 'Inter', Helvetica, Arial, sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --fontFamily: "Dubai", "sans-serif";
 
   --fontWeightRegular: 400;
   --fontWeightMedium: 500;

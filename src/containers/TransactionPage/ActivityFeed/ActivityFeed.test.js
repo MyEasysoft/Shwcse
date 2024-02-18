@@ -6,7 +6,7 @@ import {
   fakeIntl,
   createUser,
   createCurrentUser,
-  createMessage,
+  creShwcseessage,
   createListing,
   createTransaction,
 } from '../../../util/testData';
@@ -35,12 +35,12 @@ describe('ActivityFeed', () => {
     const listing = createListing('listing');
     const props = {
       messages: [
-        createMessage(
+        creShwcseessage(
           'msg1',
           { content: 'message 1', createdAt: new Date(Date.UTC(2023, 10, 9, 8, 12)) },
           { sender: customer }
         ),
-        createMessage(
+        creShwcseessage(
           'msg2',
           { content: 'message 2', createdAt: new Date(Date.UTC(2023, 10, 10, 8, 12)) },
           { sender: provider }

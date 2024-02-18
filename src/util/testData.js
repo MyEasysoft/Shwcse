@@ -235,7 +235,7 @@ export const createTransaction = options => {
   };
 };
 
-export const createMessage = (id, attributes = {}, includes = {}) => {
+export const creShwcseessage = (id, attributes = {}, includes = {}) => {
   return {
     id: new UUID(id),
     type: 'message',

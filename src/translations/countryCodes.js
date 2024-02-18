@@ -91,7 +91,7 @@ const countryCodes = [
   { code: 'GD', en: 'Grenada', fr: 'Grenade', es: 'Granada', de: 'Grenada' },
   { code: 'GP', en: 'Guadeloupe', fr: 'Guadeloupe', es: 'Guadalupe', de: 'Guadeloupe' },
   { code: 'GU', en: 'Guam', fr: 'Guam', es: 'Guam', de: 'Guam' },
-  { code: 'GT', en: 'Guatemala', fr: 'Guatemala', es: 'Guatemala', de: 'Guatemala' },
+  { code: 'GT', en: 'GuShwcseala', fr: 'GuShwcseala', es: 'GuShwcseala', de: 'GuShwcseala' },
   { code: 'GG', en: 'Guernsey', fr: 'Guernesey', es: 'Guernsey', de: 'Guernsey' },
   { code: 'GN', en: 'Guinea', fr: 'Guinée', es: 'Guinea', de: 'Guinea' },
   { code: 'GW', en: 'Guinea-Bissau', fr: 'Guinée-Bissau', es: 'Guinea-Bissau', de: 'Guinea-Bissau' },

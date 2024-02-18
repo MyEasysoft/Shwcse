@@ -396,7 +396,7 @@ class SearchMapWithMapbox extends Component {
       removableMarkers.forEach(rm => rm.marker.remove());
 
       // Helper function to create markers to given container
-      const createMarker = (data, markerContainer) =>
+      const creShwcsearker = (data, markerContainer) =>
         new window.mapboxgl.Marker(markerContainer, { anchor: 'bottom' })
           .setLngLat([data.location.lng, data.location.lat])
           .addTo(this.map);
@@ -417,7 +417,7 @@ class SearchMapWithMapbox extends Component {
             const markerContainer = document.createElement('div');
             markerContainer.setAttribute('id', m.markerId);
             markerContainer.classList.add(css.labelContainer);
-            const marker = createMarker(m, markerContainer);
+            const marker = creShwcsearker(m, markerContainer);
             return { ...m, markerContainer, marker };
           }
         });
@@ -440,7 +440,7 @@ class SearchMapWithMapbox extends Component {
         this.currentInfoCard = {
           ...infoCard,
           markerContainer: infoCardContainer,
-          marker: infoCard ? createMarker(infoCard, infoCardContainer) : null,
+          marker: infoCard ? creShwcsearker(infoCard, infoCardContainer) : null,
         };
       } else {
         if (this.currentInfoCard) {
