@@ -4,6 +4,9 @@ import css from './CustomSection2.module.css';
 import img3 from '../../assets/img3.PNG';
 import img4 from '../../assets/img4.PNG';
 import img5 from '../../assets/img5.PNG';
+import img6 from '../../assets/img6.PNG';
+import img7 from '../../assets/img7.PNG';
+import img8 from '../../assets/img8.PNG';
 import slidder from '../../assets/slidder.PNG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMessage, faHeart, faSignIn, faEnvelope} from '@fortawesome/free-solid-svg-icons'
@@ -40,9 +43,9 @@ const CustomSectionComponent2 = props =>{
 
       <div className={classNames(css.container, css.desktop)}>
         <div>
-          <div className={css.col20}><img className={css.resize_image} src={img4}/></div>
-          <div className={css.col35}><img className={css.resize_image} src={img5}/></div>
-          <div className={css.col45}><img className={css.resize_image} src={img3}/></div>
+          <div className={css.col20}><img className={css.resize_image} src={img6}/></div>
+          <div className={css.col35}><img className={css.resize_image} src={img7}/></div>
+          <div className={css.col45}><img className={css.resize_image} src={img8}/></div>
         </div>
 
       </div>

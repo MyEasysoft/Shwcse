@@ -204,6 +204,33 @@
   .mobile{
     display: none;
   }
+
+
+  .resize_2{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+    p{
+      font-size: 14px;
+    }
+
+    h3{
+      font-size: 18px;
+    }
+
+    .resize_2{
+      width: 100%;
+      
+      height: 100%;
+    
+    }
+
+    
+
+  }
   
   @media only screen and (max-width: 768px) {
     .mobile{

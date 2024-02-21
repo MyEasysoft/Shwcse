@@ -79,6 +79,24 @@
   .desktop{
     
   }
+  @media only screen and (max-width: 1400px) {
+    .resize_image{
+      height: 270px;
+      transition: .5s;
+    }
+  }
+  @media only screen and (max-width: 1280px) {
+    .resize_image{
+      height: 250px;
+      transition: .5s;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .resize_image{
+      height: 250px;
+      transition: .5s;
+    }
+  }
   @media only screen and (max-width: 768px) {
     .mobile{
       display: block;

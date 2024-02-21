@@ -36,7 +36,7 @@ const CustomSectionComponent5 = props =>{
    
     <>
 
-      <div className={classNames(css.container,css.flex_row,css.desktop)}>
+      <div className={classNames(css.container,css.desktop)}>
            <div>
                 <img src={img19}/>
            </div>

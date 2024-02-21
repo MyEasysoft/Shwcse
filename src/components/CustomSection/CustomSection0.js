@@ -2,6 +2,7 @@ import React from 'react';
 import css from './CustomSection0.module.css';
 
 import w1 from '../../assets/banner.png';
+import logo from '../../assets/shwcselogo.PNG';
 import logo1 from '../../assets/logos/logo1.PNG';
 import logo2 from '../../assets/logos/logo2.PNG';
 import logo3 from '../../assets/logos/logo3.PNG';
@@ -42,65 +43,73 @@ const CustomSectionComponent0 = props =>{
       <CustomFooterComponent/>
     
     : <>
-        <div className={classNames(css.full_width , css.desktop)}>
-                <div className={css.container +' '+ css.textCenter}>
-                <div style={{ backgroundImage:`url(${w1})`, height:'100vh', backgroundRepeat:'none', backgroundSize:'contain' }}>
 
-                    <div className={classNames(css.flex_row)}>
-                        <NamedLink {...landingPageProps}>Home</NamedLink>
-                        <NamedLink {...landingPageProps}>About</NamedLink>
-                        <NamedLink {...landingPageProps}>Locations</NamedLink>
-                        <NamedLink {...landingPageProps}>Categories</NamedLink>
-                        <NamedLink {...landingPageProps}>Contact Us</NamedLink>
-                    </div>
-                    <div className={css.login_btn_div}>
-                        <NamedLink {...landingPageProps} className={css.login_btn}>Login</NamedLink>
-                    </div>
+        <section>
+            <div className={classNames(css.full_width , css.desktop)}>
+                    <div className={css.container +' '+ css.textCenter}>
+                    <div style={{ backgroundImage:`url(${w1})` }} className={css.bg_h}>
+                    <NamedLink {...landingPageProps} ><img className={css.logo} src={logo}/></NamedLink>
+                        
 
-                    <div className={css.caption}>
-                        <h3>
-                            {title}
-                        </h3>
-                    </div>
-                    <div className={css.action_btn_div}>
-                        <NamedLink {...landingPageProps} className={css.action_btn2}>{callToActionText}</NamedLink>
-                    </div>
-                </div>
-            </div>;
+                        <div className={classNames(css.nav_menu)}>
+                            <NamedLink {...landingPageProps}>Home</NamedLink>
+                            <NamedLink {...landingPageProps}>About</NamedLink>
+                            <NamedLink {...landingPageProps}>Locations</NamedLink>
+                            <NamedLink {...landingPageProps}>Categories</NamedLink>
+                            <NamedLink {...landingPageProps}>Contact Us</NamedLink>
+                        </div>
+                        <div className={css.login_btn_div}>
+                            <NamedLink {...landingPageProps} className={css.login_btn}>Login</NamedLink>
+                        </div>
 
-            <div className={css.container_partners}>
+                        <div className={css.hero}>
+
+                            <div className={css.caption}>
+                                <h3>
+                                    {title}
+                                </h3>
+                            </div>
+                            <div className={css.action_btn_div}>
+                                <NamedLink {...landingPageProps} className={css.action_btn2}>{callToActionText}</NamedLink>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>;
+
+                <div className={css.container_partners}>
+                    
+                        <div className="slide"><img src={logo1}/></div>
+                        <div className="slide"><img src={logo2}/></div>
+                        <div className="slide"><img src={logo3}/></div>
+                        <div className="slide"><img src={logo4}/></div>
+                        <div className="slide"><img src={logo5}/></div>
+                        <div className="slide"><img src={logo6}/></div>
+                        <div className="slide"><img src={logo7}/></div>
                 
-                    <div className="slide"><img src={logo1}/></div>
-                    <div className="slide"><img src={logo2}/></div>
-                    <div className="slide"><img src={logo3}/></div>
-                    <div className="slide"><img src={logo4}/></div>
-                    <div className="slide"><img src={logo5}/></div>
-                    <div className="slide"><img src={logo6}/></div>
-                    <div className="slide"><img src={logo7}/></div>
+                </div>
+            </div>
+
+            <div className={css.mobile}>
+                <img className={css.resize} src={w1} />
+
+                <div className={classNames(css.mag_y_50 , css.pad_50)}>
+                    <h2>
+                        EXPLORE THE NEWEST TRENDS AND EVERYTHING IN BETWEEN. ELEVATE BOTH YOUR WARDROBE AND YOUR CONFIDENCE WITH OUR CURATED COLLECTIONS
+                    </h2>
+                </div>
+            
+                <div className={css.action_btn_div}>
+                    <NamedLink {...landingPageProps} className={css.action_btn2}>{callToActionText}</NamedLink>
+                </div>
+
+                <div className={classNames(css.action_btn_div,css.mag_y_50)}>
+                    <NamedLink {...landingPageProps} className={css.action_btn2}>Login</NamedLink>
+                </div>
             
             </div>
-        </div>
-
-        <div className={css.mobile}>
-            <img className={css.resize} src={w1} />
-
-            <div className={classNames(css.mag_y_50 , css.pad_50)}>
-                 <h2>
-                    EXPLORE THE NEWEST TRENDS AND EVERYTHING IN BETWEEN. ELEVATE BOTH YOUR WARDROBE AND YOUR CONFIDENCE WITH OUR CURATED COLLECTIONS
-                </h2>
-            </div>
-           
-            <div className={css.action_btn_div}>
-                <NamedLink {...landingPageProps} className={css.action_btn2}>{callToActionText}</NamedLink>
-            </div>
-
-            <div className={css.login_btn_div}>
-                <NamedLink {...landingPageProps} className={css.login_btn}>Login</NamedLink>
-            </div>
-           
-        </div>
+        </section>
         
-
     </>
    
     

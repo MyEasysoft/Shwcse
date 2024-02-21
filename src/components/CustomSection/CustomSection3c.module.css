@@ -15,7 +15,7 @@
     position: relative;
     float: left;
     width: 16.6%;
-    min-width: 350px;
+    
 }
 
 
@@ -23,35 +23,35 @@
     position: relative;
     float: left;
     width: 25%;
-    min-width: 350px;
+    
 }
 
 .col_4{
     position: relative;
     float: left;
     width: 33%;
-    min-width: 350px;
+   
 }
 
 .col_5{
     position: relative;
     float: left;
     width: 41.5%;
-    min-width: 350px;
+    
 }
 
 .col_6{
     position: relative;
     float: left;
     width: 49.8%;
-    min-width: 350px;
+   
 }
 
 .col_7{
     position: relative;
     float: left;
     width: 58.1%;
-    min-width: 350px;
+   
 }
 
 .col_8{
@@ -59,7 +59,7 @@
     float: left;
     width: 64.8%;
     margin: .7%;
-    min-width: 350px;
+   
 }
 
 .col_9{
@@ -67,21 +67,21 @@
     float: left;
     width: 74.7%;
     margin: .7%;
-    min-width: 350px;
+   
 }
 
 .col_10{
     position: relative;
     float: left;
     width: 83%;
-    min-width: 350px;
+   
 }
 
 .col_12{
     position: relative;
     float: left;
     width: 100%;
-    min-width: 350px;
+    
 }
 
 .h_2{
@@ -177,6 +177,7 @@
   .mobile{
     display: none;
   }
+
 
   @media only screen and (max-width: 768px) {
     .mobile{

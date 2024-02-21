@@ -1,9 +1,17 @@
-.container{
+
+  .container{
     position: relative;
+    width: 86%;
     float: left;
     margin: 7% 7% 3% 7%;
     border-radius: 50px;
     color: rgb(14, 13, 13);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    align-content: center;
+    
 }
 
 .col_1p0{
@@ -268,6 +276,32 @@
     display: none;
   }
   
+  @media only screen and (max-width: 1024px) {
+    .container{
+      position: relative;
+      width: 86%;
+      float: left;
+      margin: 7% 7% 3% 7%;
+      border-radius: 50px;
+      color: rgb(14, 13, 13);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: start;
+      align-content: center;
+      
+  }
+
+    p{
+      font-size: 14px;
+    }
+  
+    h3{
+      font-size: 18px;
+    }
+
+  }
+
   @media only screen and (max-width: 768px) {
     .mobile{
       display: flex;
