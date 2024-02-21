@@ -1,4 +1,48 @@
 @import '../../styles/customMediaQueries.css';
+.carousel__btn {
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  border-width: 0px;
+  border-radius: 50%;
+  padding: -5px;
+  background-color:transparent;
+  border-style: dashed;
+  border-color: rgb(11, 151, 144);
+  border-width: 2px;
+  bottom: 10px;
+  right: 10px;
+
+}
+
+.carousel__btn:hover {
+  
+  box-shadow: 2px 2px 10px 2px rgb(172, 172, 172);
+
+  background-color: rgba(255, 255, 255, 0.756);
+  transform: scale(1.1);
+  transition: .5s;
+  padding: -5px;
+  
+}
+
+
+.carousel__img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel__img:hover {
+  transform: scale(1.05);
+}
+
+.loca_bg{
+  position: absolute;
+}
+
+
 
 
 .flex_div{
@@ -98,8 +142,14 @@
     }
   }
   @media only screen and (max-width: 768px) {
+    .carousel__btn{
+      height: 50px;
+      width: 50px;
+    }
     .mobile{
-      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       width: 100%;
       margin: 0px;
       padding: 0px;
@@ -108,11 +158,6 @@
 
     .mobile h1{
       font-size: 35px;
-    }
-
-    .mobile img{
-      margin: 10px 10%;
-      width: 80%;
     }
 
     .desktop{
@@ -125,19 +170,79 @@
   }
 
   .resize_image{
-    height: auto;
+   
+    height: 100%;
   }
 
   .mag_t_50{
     margin-top: 80px;
   }
+
+  
+
+.img_con{
+  position: relative;
+  float: left;
+  height: 300px;
+
+}
+.carousel__btn {
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  border-width: 0px;
+  border-radius: 50%;
+  padding: -5px;
+  background-color:transparent;
+  border-style: dashed;
+  border-color: rgb(11, 151, 144);
+  border-width: 2px;
+  bottom: 10px;
+  right: 10px;
+
+}
+
+.carousel__btn:hover {
+  
+  box-shadow: 2px 2px 10px 2px rgb(172, 172, 172);
+
+  background-color: rgba(255, 255, 255, 0.756);
+  transform: scale(1.1);
+  transition: .5s;
+  padding: -5px;
+  
+}
+
+.img_con {
+  position: relative;
+  float: left;
+  height: 300px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0px;
+  margin-top: 0px;
+  padding: 50px;
+  text-align: center;
+}
+
 
   }
    
    @media only screen and (max-width: 412px) {
-    
+    .carousel__btn{
+      height: 100px;
+      width: 100px;
+    }
     .mobile{
-      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       width: 100%;
       margin: 0px;
       padding: 0px;
@@ -148,10 +253,6 @@
       font-size: 35px;
     }
 
-    .mobile img{
-      margin: 10px 10%;
-      width: 80%;
-    }
 
     .desktop{
       display: none;
@@ -163,20 +264,62 @@
   }
 
   .resize_image{
-    height: auto;
+    
+    height: 100%;
   }
 
   .mag_t_50{
     margin-top: 80px;
   }
 
+  .img_con {
+    position: relative;
+    float: left;
+    height: 300px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .carousel__btn {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    border-width: 0px;
+    border-radius: 50%;
+    padding: -5px;
+    background-color:transparent;
+    border-style: dashed;
+    border-color: rgb(11, 151, 144);
+    border-width: 2px;
+    bottom: 10px;
+    right: 10px;
+  
+  }
+  
+  .carousel__btn:hover {
+    
+    box-shadow: 2px 2px 10px 2px rgb(172, 172, 172);
+  
+    background-color: rgba(255, 255, 255, 0.756);
+    transform: scale(1.1);
+    transition: .5s;
+    padding: -5px;
+    
+  }
    
    }
    
    
    @media only screen and (max-width: 360px) {
+
+    .carousel__btn{
+      height: 100px;
+      width: 100px;
+    }
     .mobile{
-      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       width: 100%;
       margin: 0px;
       padding: 0px;
@@ -185,11 +328,6 @@
 
     .mobile h1{
       font-size: 35px;
-    }
-
-    .mobile img{
-      margin: 10px 10%;
-      width: 80%;
     }
 
     .desktop{
@@ -202,12 +340,48 @@
   }
 
   .resize_image{
-    height: auto;
+   
+    height: 100%;
   }
 
   .mag_t_50{
     margin-top: 80px;
   }
 
+
+  .img_con {
+    position: relative;
+    float: left;
+    height: 300px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .carousel__btn {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    border-width: 0px;
+    border-radius: 50%;
+    padding: -5px;
+    background-color:transparent;
+    border-style: dashed;
+    border-color: rgb(11, 151, 144);
+    border-width: 2px;
+    bottom: 10px;
+    right: 10px;
+  
+  }
+  
+  .carousel__btn:hover {
+    
+    box-shadow: 2px 2px 10px 2px rgb(172, 172, 172);
+  
+    background-color: rgba(255, 255, 255, 0.756);
+    transform: scale(1.1);
+    transition: .5s;
+    padding: -5px;
+    
+  }
    
    }
