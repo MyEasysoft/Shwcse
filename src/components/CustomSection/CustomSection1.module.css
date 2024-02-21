@@ -125,7 +125,7 @@ body p{
   height: auto;
 }
 .img_medium{
-  width: auto;
+  width: 100%;
   height: 100%;
 }
 
@@ -1061,7 +1061,7 @@ margin: 47px;
 }
 
 .bot_div{
-  height: 39%;
+  height: 36%;
   
   margin-top: 20px;
 }
@@ -1081,6 +1081,10 @@ margin: 47px;
   height: 40px;
 }
 
+.border_radius_50 {
+  border-radius: 50px;
+  padding-bottom: 0px;
+}
 @media only screen and (max-width: 1400px) {
   body p{
     font-size: 20px;
@@ -1339,6 +1343,11 @@ margin: 47px;
     width: 100px;
     height: auto;
     margin-bottom: 20px;
+  }
+
+  .border_radius_50 {
+    border-radius: 50px;
+    padding-bottom: 20px;
   }
 }
 
