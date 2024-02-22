@@ -173,9 +173,17 @@
  *
  * NOTE: components use CSS Modules for styles.
  */
+ @font-face {
+  font-family: "Stem";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Stem"),
+    url("../../public/static/fonts/EM-Stem/OTF/Stem-Regular.otf");
+  
+  }
 
 body {
-  font-family: var(--fontFamily);
+  font-family: Stem;
 
   /* A non-standard feature: https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth */
   -webkit-font-smoothing: antialiased;

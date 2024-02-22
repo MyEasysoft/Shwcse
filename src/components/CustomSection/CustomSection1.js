@@ -7,9 +7,17 @@ import slidder2 from '../../assets/slidder2.PNG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMessage, faHeart, faSignIn, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import classNames from 'classnames';
+import NamedLink from '../NamedLink/NamedLink';
 
 
 function CustomSectionComponent1(){
+    const activeClassName = 'my-active-class';
+    const landingPageProps = {
+        name: 'LandingPage',
+        activeClassName,
+        match: { url: '/' },
+      };
+
 
   return (
 
@@ -79,7 +87,7 @@ function CustomSectionComponent1(){
                                     </p>
                             </div>
                             <div>
-                                <img src={arrow1} className={classNames(css.margin_right_50, css.arrow_icon)} />
+                                <NamedLink {...landingPageProps} ><img className={classNames(css.resize_5,css.link_btns,css.margin_right_50,css.arrow_icon)} src={arrow1}/></NamedLink>
                             </div>
                     </div>
                 </div>
@@ -150,7 +158,7 @@ function CustomSectionComponent1(){
                             </p>
                     </div>
                     <div>
-                        <img className={css.resize_5} src={arrow1}/>
+                       <NamedLink {...landingPageProps} ><img className={classNames(css.resize_5,css.link_btns)} src={arrow1}/></NamedLink>
                     </div>
                 </div>
             </div>

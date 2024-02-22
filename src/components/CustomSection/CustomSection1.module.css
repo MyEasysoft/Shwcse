@@ -1085,7 +1085,16 @@ margin: 47px;
   border-radius: 50px;
   padding-bottom: 0px;
 }
+
+.link_btns{
+    cursor: pointer;
+    &:hover{
+      transform: scale(.8);
+      transition: .1s;
+    }
+}
 @media only screen and (max-width: 1400px) {
+  
   body p{
     font-size: 20px;
     line-height: 23px;
