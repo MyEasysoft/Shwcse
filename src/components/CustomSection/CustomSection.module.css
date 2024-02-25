@@ -52,7 +52,7 @@
 }
 
 .d_inline a{
-  color: white;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 22px;
 }
@@ -70,7 +70,7 @@
 }
 
 .d_inline_top a{
-  color: white;
+  color: #FFFFFF;
   
  
 }
@@ -99,7 +99,7 @@
     background-color: gray;
     margin: 10px 6%;
     padding: 20px;
-    color: white;
+    color: #FFFFFF;
     margin-top: -50px;
 
   }
@@ -321,7 +321,7 @@ margin-top: 80px;
   }
   .btnOutlinePrimary:hover{
       background-color: rgb(27, 104, 248);
-      color:white;
+      color:#FFFFFF;
       text-decoration: none;
   }
   .btnOutlinePrimary a{
@@ -337,7 +337,7 @@ margin-top: 80px;
 
   .btnOutlinePrimary a:hover{
       background-color: rgb(27, 104, 248);
-      color:white;
+      color:#FFFFFF;
       text-decoration: none;
       border-style:none;
       

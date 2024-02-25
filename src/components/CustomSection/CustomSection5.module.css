@@ -5,7 +5,7 @@
     float: left;
     margin: 7% 7% 3% 7%;
     border-radius: 50px;
-    color: rgb(14, 13, 13);
+    color: 1B1C1E;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -148,7 +148,7 @@
     padding: 30px 50px;
     border-radius: 70px;
     
-    background-color: rgb(47, 202, 202);
+    background-color: #1DBAA9;
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 30px;
@@ -156,7 +156,7 @@
     &:hover{
       border-style: solid;
       background-color:transparent;
-      border-color: rgb(47, 202, 150);
+      border-color: #1DBAA9;
       color: black;
       text-decoration: none;
       transition: 1s;
@@ -242,7 +242,7 @@
   }
 
   .text_white{
-    color:white;
+    color:#FFFFFF;
   }
 
   .font_wg_200{
@@ -283,7 +283,7 @@
       float: left;
       margin: 7% 7% 3% 7%;
       border-radius: 50px;
-      color: rgb(14, 13, 13);
+      color: 1B1C1E;
       display: flex;
       flex-direction: row;
       justify-content: space-between;

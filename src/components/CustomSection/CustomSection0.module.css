@@ -85,7 +85,7 @@
 }
 
 .caption{
-  color: rgb(173, 223, 252);
+  color: #FFFFFF;
   text-align: left;
   
 }
@@ -95,13 +95,13 @@
   padding: 20px 80px;
   border-radius: 70px;
   border-style: solid;
-  border-color: rgb(47, 202, 150);
-  color:rgb(47, 202, 150);
+  border-color: #1DBAA9;
+  color:#1DBAA9;
   font-weight: 500;
 
   &:hover{
-    background-color: rgb(47, 202, 150);
-    color: white;
+    background-color: #1DBAA9;
+    color: #FFFFFF;
     text-decoration: none;
     transition: 1s;
   }
@@ -113,16 +113,16 @@
   padding: 25px 50px;
   border-radius: 70px;
 
-  background-color: rgb(47, 184, 202);
-  color: white;
+  background-color: #1DBAA9;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: bold;
 }
 
 .action_btn2:hover{
   border-style: solid;
-  border-color: rgb(47, 202, 150);
-  color:rgb(47, 202, 150);
+  border-color: #1DBAA9;
+  color:#1DBAA9;
   font-weight: 500;
   background-color: transparent;
   text-decoration: none;
@@ -173,18 +173,21 @@
   left: 7%;
   
 }
+.nav_menu a:hover{
+  color: #1DBAA9;
+}
 
 .login_btn{
   padding: 20px 80px;
   border-radius: 70px;
   border-style: solid;
-  border-color: rgb(47, 202, 150);
-  color:rgb(47, 202, 150);
+  border-color: #1DBAA9;
+  color:#1DBAA9;
   font-weight: 500;
 
   &:hover{
-    background-color: rgb(47, 202, 150);
-    color: white;
+    background-color: #1DBAA9;
+    color: #FFFFFF;
     text-decoration: none;
     transition: 1s;
   }
@@ -210,7 +213,7 @@
 
 a{
  
-    color:white;
+    color:#FFFFFF;
     font-size: 25px;
     font-weight: 200;
 }
@@ -250,7 +253,7 @@ h1,h2,h3,h4{
   .row{
       display: flex;
       justify-content: center;
-      background-color: white;
+      background-color: #FFFFFF;
       padding-top: 50px;
       gap: 0px;
       align-items: center;
@@ -260,7 +263,7 @@ h1,h2,h3,h4{
   .row2{
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #FFFFFF;
     padding-top: 50px;
     align-items: center;
     padding: 0px 10%;
@@ -278,7 +281,7 @@ h1,h2,h3,h4{
 .search input{
   border:none;
   background-color: transparent;
-  color:white;
+  color:#FFFFFF;
 }
 
 .icons{
@@ -299,7 +302,7 @@ h1,h2,h3,h4{
 }
 
   .section{
-      background-color: white;
+      background-color: #FFFFFF;
       padding-top: 50px;
       margin: 10px 0px;
   }
@@ -318,7 +321,7 @@ h1,h2,h3,h4{
     float: left;
     width: 88%;
 
-    background-color: white;
+    background-color: #FFFFFF;
       padding-top: 20px;
       margin: 10px 0px;
       margin:5px 6%;
@@ -343,13 +346,13 @@ h1,h2,h3,h4{
     margin: 0 auto;
     padding: 20px 40px;
     background-color: black;
-    color: white;
+    color: #FFFFFF;
     border-radius: 10px;
     font-size: 30px;
 
     &:hover{
       color: gray;
-      background-color: white;
+      background-color: #FFFFFF;
       border: solid;
       border-width: thin;
     }
@@ -362,13 +365,13 @@ h1,h2,h3,h4{
     margin: 0 auto;
     padding: 13px 60px;
     background-color: rgb(76, 131, 69);
-    color: white;
+    color: #FFFFFF;
     border-radius: 50px;
     font-size: 15px;
 
     &:hover{
       color: gray;
-      background-color: white;
+      background-color: #FFFFFF;
       border: solid;
       border-width: thin;
     }
@@ -700,7 +703,7 @@ margin-top: 80px;
   }
   .btnOutlinePrimary:hover{
       background-color: rgb(27, 104, 248);
-      color:white;
+      color:#FFFFFF;
       text-decoration: none;
   }
   .btnOutlinePrimary a{
@@ -716,7 +719,7 @@ margin-top: 80px;
 
   .btnOutlinePrimary a:hover{
       background-color: rgb(27, 104, 248);
-      color:white;
+      color:#FFFFFF;
       text-decoration: none;
       border-style:none;
       
@@ -833,7 +836,7 @@ margin-top: 80px;
     position: relative;
     right: 180px;
     top:-250px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .devCard2{
@@ -843,7 +846,7 @@ margin-top: 80px;
     position: relative;
     right: 400px;
     top:0px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .devCard3{
@@ -853,7 +856,7 @@ margin-top: 80px;
     position: relative;
     right: 450px;
     top:-410px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .margin50{
@@ -919,7 +922,7 @@ margin-top: 80px;
 }
 
 .bg_white{
- background-color: white;
+ background-color: #FFFFFF;
  padding-top: 20px;
 }
 

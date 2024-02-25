@@ -4,7 +4,7 @@
     margin: 0% 7%;
     border-radius: 50px;
     background-color: #1d1d1d;
-    color: white;
+    color: #FFFFFF;
 }
 
 .col_2{
@@ -127,15 +127,15 @@
     padding: 30px 50px;
     border-radius: 70px;
     
-    background-color: white;
+    background-color: #FFFFFF;
     color: black;
     font-weight: 500;
     font-size: 25px;
   
     &:hover{
         border-style: solid;
-      background-color: rgb(47, 202, 150);
-      border-color: rgb(47, 202, 150);
+      background-color: #1DBAA9;
+      border-color: #1DBAA9;
    
       text-decoration: none;
       transition: 1s;
@@ -176,7 +176,7 @@
   }
 
   .text_white{
-    color:white;
+    color:#FFFFFF;
   }
 
   .font_wg_200{
