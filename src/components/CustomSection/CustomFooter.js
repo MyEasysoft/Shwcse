@@ -60,14 +60,7 @@ const CustomFooterComponent = props =>{
                     <NamedLink {...landingPageProps} >Sweaters</NamedLink>
 
                 </div>
-                <div className={classNames(css.flex_col)}><span className={css.headers}>Locations</span>
-                    <NamedLink {...landingPageProps} > New York</NamedLink>
-                    <NamedLink {...landingPageProps} >Atalanta</NamedLink>
-                    <NamedLink {...landingPageProps} >Los Angeles</NamedLink>
-                    <NamedLink {...landingPageProps} >Miami</NamedLink>
-                    <NamedLink {...landingPageProps} >Houston</NamedLink>
-                    <NamedLink {...landingPageProps} >Las Vegas</NamedLink>
-                </div>
+               
                 <div className={classNames(css.flex_col)}><span className={css.headers}>Quick Links</span>
                     <NamedLink {...landingPageProps} >About</NamedLink>
                     <NamedLink {...landingPageProps} >Sell On Shwcse</NamedLink>
@@ -129,14 +122,7 @@ const CustomFooterComponent = props =>{
                     <NamedLink {...landingPageProps} >Sweaters</NamedLink>
 
                 </div>
-                <div className={classNames(css.flex_col)}><span className={css.headers}>Locations</span>
-                    <NamedLink {...landingPageProps} > New York</NamedLink>
-                    <NamedLink {...landingPageProps} >Atalanta</NamedLink>
-                    <NamedLink {...landingPageProps} >Los Angeles</NamedLink>
-                    <NamedLink {...landingPageProps} >Miami</NamedLink>
-                    <NamedLink {...landingPageProps} >Houston</NamedLink>
-                    <NamedLink {...landingPageProps} >Las Vegas</NamedLink>
-                </div>
+                
                 <div className={classNames(css.flex_col)}><span className={css.headers}>Quick Links</span>
                     <NamedLink {...landingPageProps} >About</NamedLink>
                     <NamedLink {...landingPageProps} >Sell On Shwcse</NamedLink>

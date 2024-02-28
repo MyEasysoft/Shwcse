@@ -294,7 +294,7 @@ h1,h2,h3,h4{
     
     padding: 0px;
     margin: 0px;
-    
+    margin-bottom: 20px;
     
   }
 
@@ -1094,15 +1094,21 @@ margin: 47px;
     }
 }
 @media only screen and (max-width: 1400px) {
-  
-  body p{
-    font-size: 20px;
-    line-height: 23px;
+  .why_showcase {
+    margin-bottom: 10px;
+    margin-left: 0%;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 400;
   }
-
-  body h2{
-    font-size: 18px;
-    line-height: 23px;
+  body p {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  body h2 {
+    font-size: 30px;
+    line-height: 33px;
   }
   .mobile{
     position: relative;
@@ -1146,15 +1152,16 @@ margin: 47px;
 }
 
 @media only screen and (max-width: 1280px) {
-  body p{
-    font-size: 20px;
-    line-height: 23px;
-  }
-
-  body h2{
-    font-size: 18px;
-    line-height: 23px;
-  }
+  body p {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+  
+}
+body h2 {
+  font-size: 30px;
+  line-height: 33px;
+}
   .mobile{
     position: relative;
     float: left;
@@ -1197,14 +1204,15 @@ margin: 47px;
 }
 
 @media only screen and (max-width: 1024px) {
-  body p{
-    font-size: 20px;
-    line-height: 23px;
+  body p {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
   }
 
-  body h2{
-    font-size: 18px;
-    line-height: 23px;
+  body h2 {
+    font-size: 30px;
+    line-height: 33px;
   }
   .mobile{
     position: relative;

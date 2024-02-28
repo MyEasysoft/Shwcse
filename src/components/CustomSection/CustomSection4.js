@@ -42,7 +42,7 @@ const CustomSectionComponent4 = props =>{
            </div>
             <div className={classNames(css.col_6, css.flex_col,css.pad_50)}>
                 
-                    <h3 className={classNames(css.font_wg_200,css.letter_space_10)}>YOUR FASHIONMARKET PLACE</h3>
+                    <h3 className={classNames(css.font_wg_200,css.letter_space_10)}>YOUR FASHION MARKET PLACE</h3>
                     <p className={classNames(css.mag_y_50,css.text_white,css.p2)}>
                         Shwcse is making it easier for merchants to market and sell 
                         while consumers shop and purchase
@@ -59,7 +59,7 @@ const CustomSectionComponent4 = props =>{
                 <img className={css.resize} src={img18}/>
          
             
-                    <h3 className={classNames(css.font_wg_200,css.letter_space_10)}>YOUR FASHIONMARKET PLACE</h3>
+                    <h3 className={classNames(css.font_wg_200,css.letter_space_10)}>YOUR FASHION MARKET PLACE</h3>
                     <p className={classNames(css.text_30,css.mag_y_50,css.text_white)}>
                         Shwcse is making it easier for merchants to market and sell 
                         while consumers shop and purchase
