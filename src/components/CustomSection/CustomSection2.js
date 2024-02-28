@@ -2,7 +2,7 @@ import React from 'react';
 import css from './CustomSection2.module.css';
 
 import img3 from '../../assets/img3.PNG';
-import img4 from '../../assets/img4.PNG';
+import img4 from '../../assets/img4a.PNG';
 import img5 from '../../assets/img5.PNG';
 import img6 from '../../assets/img6.PNG';
 import img7 from '../../assets/img7.PNG';
@@ -29,7 +29,7 @@ const CustomSectionComponent2 = props =>{
         <div className={css.flex_row_normal}>
             <img className={css.margin_top_small} src={slidder}/>
             <h1 className={classNames( css.show, css.text_no_wrap)}>
-              Locations?
+              Locations
             </h1>
             
         </div>
@@ -71,7 +71,7 @@ const CustomSectionComponent2 = props =>{
 
       <div className={classNames(css.mobile,css.mag_t_50)}>
             <h1>
-                Locations?
+                Locations
             </h1>
             <img className={css.h_20}  src={slidder}/>
           <div className={classNames(css.img_con)}>

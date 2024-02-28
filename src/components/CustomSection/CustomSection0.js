@@ -1,6 +1,7 @@
 import React from 'react';
 import css from './CustomSection0.module.css';
 
+import banner_mobile from '../../assets/banner_mobile.png';
 import w1 from '../../assets/banner.png';
 import logo from '../../assets/shwcselogo.PNG';
 import logo1 from '../../assets/logos/logo1.PNG';
@@ -10,6 +11,7 @@ import logo4 from '../../assets/logos/logo4.PNG';
 import logo5 from '../../assets/logos/logo5.PNG';
 import logo6 from '../../assets/logos/logo6.PNG';
 import logo7 from '../../assets/logos/logo7.PNG';
+import overlay_img from '../../assets/img_overlay.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMessage, faHeart, faSignIn, faEnvelope} from '@fortawesome/free-solid-svg-icons'
@@ -47,36 +49,40 @@ const CustomSectionComponent0 = props =>{
         <section>
             <div className={classNames(css.full_width , css.desktop)}>
                     <div className={css.container +' '+ css.textCenter}>
-                    <div style={{ backgroundImage:`url(${w1})` }} className={css.bg_h}>
-                    <NamedLink {...landingPageProps} ><img className={css.logo} src={logo}/></NamedLink>
-                        
+                    <div>
+                        <img className={css.resize} src={w1} />
+                        <img className={css.resize_overlay} src={overlay_img} />
+                        <NamedLink {...landingPageProps} ><img className={css.logo} src={logo}/></NamedLink>
+                            
 
-                        <div className={classNames(css.nav_menu)}>
-                            <NamedLink {...landingPageProps}>Home</NamedLink>
-                            <NamedLink {...landingPageProps}>About</NamedLink>
-                            <NamedLink {...landingPageProps}>Locations</NamedLink>
-                            <NamedLink {...landingPageProps}>Categories</NamedLink>
-                            <NamedLink {...landingPageProps}>Contact Us</NamedLink>
-                        </div>
-                        <div className={css.login_btn_div}>
-                            <NamedLink {...landingPageProps} className={css.login_btn}>Login</NamedLink>
-                        </div>
-
-                        <div className={css.hero}>
-
-                            <div className={css.caption}>
-                                <h3>
-                                    {title}
-                                </h3>
+                            <div className={classNames(css.nav_menu)}>
+                                <NamedLink {...landingPageProps}>Home</NamedLink>
+                                <NamedLink {...landingPageProps}>About</NamedLink>
+                                <NamedLink {...landingPageProps}>Locations</NamedLink>
+                                <NamedLink {...landingPageProps}>Categories</NamedLink>
+                                <NamedLink {...landingPageProps}>Contact Us</NamedLink>
                             </div>
-                            <div className={css.action_btn_div}>
-                                <NamedLink {...landingPageProps} className={css.action_btn2}>{callToActionText}</NamedLink>
+                            <div className={css.login_btn_div}>
+                                <NamedLink {...landingPageProps} className={css.login_btn}>Login</NamedLink>
                             </div>
-                        </div>
+
+                            <div className={css.hero}>
+
+                                <div className={css.caption}>
+                                    <h3>
+                                        {title}
+                                    </h3>
+                                </div>
+                                
+                            </div>
+                          
 
                     </div>
-                </div>;
 
+                </div>
+                <div className={css.action_btn_div}>
+                        <NamedLink {...landingPageProps} className={css.action_btn2}>{callToActionText}</NamedLink>
+                </div>
                 <div className={css.container_partners}>
                     
                         <div className="slide"><img src={logo1}/></div>
@@ -91,7 +97,7 @@ const CustomSectionComponent0 = props =>{
             </div>
 
             <div className={css.mobile}>
-                <img className={css.resize} src={w1} />
+                <img className={css.resize} src={banner_mobile} />
 
                 <div className={classNames(css.mag_y_50 , css.pad_50)}>
                     <h2>
