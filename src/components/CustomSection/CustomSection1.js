@@ -28,7 +28,7 @@ function CustomSectionComponent1(){
             <h3 className={classNames( css.why_showcase)}>
                 Why Shwcse?
             </h3>
-            <img  src={slidder2}/>
+            <img className={css.slidder2} src={slidder2}/>
         </div>
         <div className={classNames(css.main_container,css.desktop)} >
             
@@ -101,7 +101,7 @@ function CustomSectionComponent1(){
                     <h3 className={classNames( css.why_showcase)}>
                         Why Shwcse?
                     </h3>
-                    <img  src={slidder2}/>
+                    <img className={css.slidder2}  src={slidder2}/>
 
                     <div className={classNames(css.col12,css.border_radius_20,css.bg_light_gray) }>
                         <img className={classNames(css.height_100, css.border_radius_top_20, css.img_fluid) } src={img1}/>

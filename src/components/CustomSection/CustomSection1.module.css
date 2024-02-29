@@ -590,6 +590,7 @@ h1,h2,h3,h4{
       position: relative;
       float: left;
       width: 100%;
+      border-radius: 20px;
   }
   .textCenter{
       text-align: center;
@@ -1075,11 +1076,6 @@ margin: 47px;
   align-content: baseline;
 }
 
-.slidder1 img{
-  margin-left: 20px;
-  width: auto;
-  height: 40px;
-}
 
 .border_radius_50 {
   border-radius: 50px;
@@ -1092,6 +1088,10 @@ margin: 47px;
       transform: scale(.8);
       transition: .1s;
     }
+}
+
+.slidder2{
+  width: auto;
 }
 @media only screen and (max-width: 1400px) {
   .why_showcase {
@@ -1149,6 +1149,9 @@ margin: 47px;
   .bot_div{
     height: 39%;
   }
+  .slidder2{
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -1200,6 +1203,10 @@ body h2 {
   
   .bot_div{
     height: 41%;
+  }
+
+  .slidder2{
+    width: auto;
   }
 }
 
@@ -1300,9 +1307,11 @@ body h2 {
   flex-direction: row;
   justify-content: flex-start;
   
-  width: 100%;
+  width: 92%;
 }
-   
+.slidder2{
+  width: auto;
+}
 }
 
 
@@ -1317,7 +1326,7 @@ body h2 {
     padding: 50px 20px;
     padding-bottom: 0px;
     
-    width: 100%;
+    
   }
 
   .desktop{
@@ -1366,6 +1375,10 @@ body h2 {
     border-radius: 50px;
     padding-bottom: 20px;
   }
+
+  .slidder2{
+    width: 90%;
+  }
 }
 
  
@@ -1379,7 +1392,6 @@ body h2 {
     padding: 50px 20px;
     padding-bottom: 0px;
     
-    width: 100%;
   }
 
   .desktop{
@@ -1414,6 +1426,10 @@ body h2 {
     height: auto;
     margin-bottom: 20px;
   }
+
+  .slidder2{
+    width: 90%;
+  }
  
  }
  
@@ -1427,8 +1443,7 @@ body h2 {
     text-align: center;
     padding: 50px 20px;
     padding-bottom: 0px;
-    
-    width: 100%;
+   
   }
 
   .desktop{
@@ -1460,5 +1475,9 @@ body h2 {
     width: 100px;
     height: auto;
     margin-bottom: 20px;
+  }
+
+  .slidder2{
+    width: 90%;
   }
  }
