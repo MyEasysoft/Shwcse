@@ -466,11 +466,6 @@ footer{
     display: none;
   }
 
-  .resize{
-    width: 200px;
-    height: auto;
-  }
-     
   .flex_col{
     display: flex;
     flex-direction: column;
@@ -478,6 +473,12 @@ footer{
     align-items: center;
     
     
+  }
+
+  .resize {
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
   }
 
 
