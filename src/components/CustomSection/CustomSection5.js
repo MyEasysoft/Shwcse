@@ -44,7 +44,7 @@ const CustomSectionComponent5 = props =>{
                     <div className={css.text_center}><h2 className={classNames(css.font_wg_200,css.letter_space_10,css.text_50)}>Join our Newsletter</h2></div>
                     
                     <p className={classNames(css.text_30,css.mag_y_50)}>
-                        Subscribe to receive the latest updates on promos, discount offers and new products
+                    Subscribe to receive the latest updates on promos, discount offers and new products. Please center this. Put everything on one line or put have it to where promo's, discount offers and products are centered underneath Subscribe to receive the latest updates on
                     </p>
                     <div className={css.flex_row_2}>
                         <input className={classNames(css.no_bg_input,css.col_10,css.text_30)} type="email" placeholder="Enter Email address"/>
@@ -67,7 +67,7 @@ const CustomSectionComponent5 = props =>{
                     <div className={css.text_center}><h3 className={classNames(css.font_wg_200,css.letter_space_10,css.text_50)}>Join our Newsletter</h3></div>
                     
                     <p className={classNames(css.text_30,css.mag_y_50)}>
-                        Subscribe to receive the latest updates on promos, discount offers and new products
+                    Subscribe to receive the latest updates on promos, discount offers and new products. Please center this. Put everything on one line or put have it to where promo's, discount offers and products are centered underneath Subscribe to receive the latest updates on
                     </p>
                     
                         <input className={classNames(css.no_bg_input,css.text_30)} type="email" placeholder="Enter Email address"/>

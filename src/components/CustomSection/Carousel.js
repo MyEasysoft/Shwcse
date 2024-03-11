@@ -46,8 +46,8 @@ const Carousel = () => {
     <div className={classNames(css.carousel)}>
       <div className={classNames(css.pad5,css.mobile)}>
 
-            <h1>
-              Categories?
+            <h1 className={css.big_h}>
+              Categories
             </h1>
             <img className={css.h_20}  src={slidder}/>
             <div className={css.control}>

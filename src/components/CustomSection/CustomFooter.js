@@ -42,12 +42,11 @@ const CustomFooterComponent = props =>{
             <div className={classNames(css.flex_col,css.col_4,css.mag_r)}>
                     <img className={css.resize_logo} src={logomain}/>
                     <p className={css.text_p}>
-                        We foster distinctive fashion in your 
-                        life via Quality Fashion, Artistic 
-                        Expression, and Endless Innovation.
-                        Our retail marketplace serves as a 
-                        global hub where consumers and 
-                        brands unite under one roof
+                    Our retail marketplace functions as a dynamic global hub, 
+                    bringing together consumers and brands worldwide under a single virtual roof. 
+                    Here, individuals can explore extensive products and services while brands showcase their offerings to a diverse and expansive audience.
+                    By fostering this convergence, we create a vibrant ecosystem where buyers and sellers connect, 
+                    interact, and engage in commerce on a global scale
                     </p>
             </div> 
             <div className={classNames(css.flex_row, css.col_8,css.text_p)}>

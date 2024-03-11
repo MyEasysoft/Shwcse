@@ -126,23 +126,72 @@
   }
   @media only screen and (max-width: 1400px) {
     .resize_image{
-      height: 270px;
+      height: 100%;
       transition: .5s;
     }
+
+
+    .carousel__btn{
+      bottom: 20px;
+      right: 10px;
+      height: 50px;
+    }
+
+    .main_container {
+      
+      height: 530px;
+     
+    }
+
   }
   @media only screen and (max-width: 1280px) {
     .resize_image{
-      height: 250px;
+      height: 100%;
       transition: .5s;
     }
+    
+
+    .carousel__btn{
+      bottom: 20px;
+      right: 10px;
+      height: 50px;
+    }
+
+    body p , h2{
+      font-size: 20px;
+      
+    }
+
+    .top_div{
+      height: 50%;
+    }
+
+
+
   }
   @media only screen and (max-width: 1024px) {
     .resize_image{
-      height: 250px;
+      height: 100%;
       transition: .5s;
     }
+    
+
+    .main_container {
+      
+      height: 490px;
+     
+    }
+
+    body h2 {
+      font-size: 20px;
+      line-height: 33px;
+    }
+
   }
   @media only screen and (max-width: 768px) {
+
+    
+    
     .carousel__btn{
       height: 50px;
       width: 50px;

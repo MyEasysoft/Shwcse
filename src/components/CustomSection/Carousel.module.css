@@ -41,7 +41,9 @@
     transform: scale(1.05);
   }
 
-
+.big_h{
+  font-size: 40px;
+}
 
 .mag_r_50{
   margin-right: 50px;
@@ -254,6 +256,8 @@
       flex-direction: row;
       justify-content: space-around;
     }
+
+    
      
 
   }

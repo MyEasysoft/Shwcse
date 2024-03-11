@@ -1093,6 +1093,12 @@ margin: 47px;
 .slidder2{
   width: auto;
 }
+
+.smallHeader{
+  font-size: 30px;
+   
+}
+
 @media only screen and (max-width: 1400px) {
   .why_showcase {
     margin-bottom: 10px;
@@ -1155,6 +1161,7 @@ margin: 47px;
 }
 
 @media only screen and (max-width: 1280px) {
+  
   body p {
     font-size: 25px;
     line-height: 30px;
@@ -1208,9 +1215,23 @@ body h2 {
   .slidder2{
     width: auto;
   }
+  
+  .smallHeader{
+    font-size: 20px;
+  }
+
+  
+.smallHeader{
+  font-size: 20px;
+    margin: 0px;
+    line-height: 25px;
+}
 }
 
 @media only screen and (max-width: 1024px) {
+
+ 
+
   body p {
     font-size: 25px;
     line-height: 30px;
@@ -1312,11 +1333,18 @@ body h2 {
 .slidder2{
   width: auto;
 }
+
+.smallHeader{
+  font-size: 20px;
+    margin: 0px;
+    line-height: 25px;
 }
 
 
+}
 
 @media only screen and (max-width: 768px) {
+
   .mobile{
     position: relative;
     float: left;
@@ -1379,6 +1407,15 @@ body h2 {
   .slidder2{
     width: 90%;
   }
+
+
+  .smallHeader{
+    font-size: 20px;
+  }
+
+
+
+
 }
 
  
