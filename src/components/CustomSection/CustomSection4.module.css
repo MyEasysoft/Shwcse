@@ -338,10 +338,16 @@
   background-color: transparent;
 }
      
-   
+.login_btn{
+  margin: 0px auto;
+  padding: 20px 20px;
+}
 
-   
-   }
+.login_btn{
+  margin: 0px auto;
+  padding: 20px 20px;
+}
+}
    
    
    @media only screen and (max-width: 360px) {

@@ -87,7 +87,7 @@ body p{
   margin-left: 8%;
   margin-top: 50px;
   font-size: 50px;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .margin_top{
@@ -1105,7 +1105,7 @@ margin: 47px;
     margin-left: 0%;
     margin-top: 30px;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: bold;
   }
   body p {
     font-size: 25px;
@@ -1319,6 +1319,7 @@ a {
   font-size: 35px;
   text-wrap: nowrap;
   text-align: center;
+  font-weight: bold;
   
   }
 
@@ -1388,6 +1389,7 @@ a {
   font-size: 35px;
   text-wrap: nowrap;
   text-align: center;
+  font-weight: bold;
   
   }
 
@@ -1465,7 +1467,7 @@ a {
   font-size: 35px;
   text-wrap: nowrap;
   text-align: center;
-  
+  font-weight: bold;
   }
 
   
@@ -1517,7 +1519,7 @@ a {
   font-size: 35px;
   text-wrap: nowrap;
   text-align: center;
-  
+  font-weight: bold;
   }
 
 
