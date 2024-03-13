@@ -357,6 +357,28 @@ footer{
       text-decoration: none;
       transition: .5s;
     }
+
+    footer a {
+      color: black;
+      font-size: 20px;
+      line-height: 60px;
+    }
+
+    
+  }
+  @media only screen and (max-width: 1400px) {
+    
+    .text_p {
+      font-size: 20px;
+      
+    }
+
+    .letter_space_10 {
+      letter-spacing: 10px;
+      line-height: 45px;
+    }
+
+
   }
 
   @media only screen and (max-width: 1280px) {
@@ -380,6 +402,13 @@ footer{
       font-size: 15px;
       padding: 5px 20px;
     }
+
+    .text_p {
+      font-size: 20px;
+      
+    }
+
+
   }
 
   @media only screen and (max-width: 1280px) {

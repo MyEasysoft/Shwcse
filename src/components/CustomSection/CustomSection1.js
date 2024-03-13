@@ -77,9 +77,9 @@ function CustomSectionComponent1(){
                 <div className={css.bot_div}>
                     <div className={classNames( css.flex_row_full,css.border_radius_50,css.bg_light_green)}>
                             <div className={classNames(css.margin_30,css.color_white)}>
-                            <h1  className={css.smallHeader}>
+                            <h2>
                                 Find What You Need
-                            </h1>
+                            </h2>
                                     <p className={classNames(css.color_white)}>
                                         Search by location or keyword. Filter by price, 
                                         availability, or custom filters. View retail brands 

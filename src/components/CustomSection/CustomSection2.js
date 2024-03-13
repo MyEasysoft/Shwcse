@@ -38,14 +38,26 @@ const CustomSectionComponent2 = props =>{
           <div className={css.col45}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img3}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            <div className={css.overlay_caption}>
+              <h2 >New York</h2>
+            </div>
+            
           </div>
           <div className={css.col20}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img4}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            <div className={css.overlay_caption}>
+              <h2 >Atlanta</h2>
+            </div>
+           
           </div>
           <div className={css.col35}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img5}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            <div className={css.overlay_caption}>
+              <h2 >Los Angeles</h2>
+            </div>
+            
           </div>
         </div>
 
@@ -56,14 +68,26 @@ const CustomSectionComponent2 = props =>{
           <div className={css.col20}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img6}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            
+            <div className={css.overlay_caption}>
+              <h2 >Miami</h2>
+            </div>
           </div>
           <div className={css.col35}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img7}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            
+            <div className={css.overlay_caption}>
+              <h2 >Houston</h2>
+            </div>
           </div>
           <div className={css.col45}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img8}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            
+            <div className={css.overlay_caption}>
+              <h2 >Las Vegas</h2>
+            </div>
           </div>
         </div>
 
@@ -77,27 +101,33 @@ const CustomSectionComponent2 = props =>{
           <div className={classNames(css.img_con)}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img3}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            <h2 className={css.overlay_caption}>New York</h2>
           </div>
           <div className={classNames(css.img_con)}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img4}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            <h2 className={css.overlay_caption}>Atlanta</h2>
           </div>
           <div className={classNames(css.img_con)}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img5}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            <h2 className={css.overlay_caption}>Los Angeles</h2>
           </div>
 
           <div className={classNames(css.img_con)}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img6}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            <h2 className={css.overlay_caption}>Miami</h2>
           </div>
           <div className={classNames(css.img_con)}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img7}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            <h2 className={css.overlay_caption}>Houston</h2>
           </div>
           <div className={classNames(css.img_con)}>
             <img className={classNames(css.loca_bg,css.resize_image)} src={img8}/>
             <img className={classNames(css.carousel__btn,css.carousel__btn__prev)} src={right_arrow}/>
+            <h2 className={css.overlay_caption}>Las Vegas</h2>
           </div>
 
 

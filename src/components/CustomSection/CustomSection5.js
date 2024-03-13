@@ -41,7 +41,7 @@ const CustomSectionComponent5 = props =>{
                 <img src={img19}/>
            </div>
             <div className={classNames(css.col_12, css.flex_col,css.pad_50)}>
-                    <div className={css.text_center}><h2 className={classNames(css.font_wg_200,css.letter_space_10,css.text_50)}>Join our Newsletter</h2></div>
+                    <div className={css.text_center}><h2 className={classNames(css.font_wg_200,css.letter_space_10,css.text_50)}>Join Our Newsletter</h2></div>
                     
                     <p className={classNames(css.text_30,css.mag_y_50)}>
                     Subscribe to receive the latest updates on promos, discount offers and new products. Please center this. Put everything on one line or put have it to where promo's, discount offers and products are centered underneath Subscribe to receive the latest updates on
@@ -64,7 +64,7 @@ const CustomSectionComponent5 = props =>{
                 <img className={css.resize} src={img19}/>
           
            
-                    <div className={css.text_center}><h3 className={classNames(css.font_wg_200,css.letter_space_10,css.text_50)}>Join our Newsletter</h3></div>
+                    <div className={css.text_center}><h3 className={classNames(css.font_wg_200,css.letter_space_10,css.text_50)}>Join Our Newsletter</h3></div>
                     
                     <p className={classNames(css.text_30,css.mag_y_50)}>
                     Subscribe to receive the latest updates on promos, discount offers and new products. Please center this. Put everything on one line or put have it to where promo's, discount offers and products are centered underneath Subscribe to receive the latest updates on
@@ -72,11 +72,6 @@ const CustomSectionComponent5 = props =>{
                     
                         <input className={classNames(css.no_bg_input,css.text_30)} type="email" placeholder="Enter Email address"/>
                         <NamedLink {...landingPageProps} className={css.login_btn}>Subscribe</NamedLink>
-            
-                  
-                    
-                
-           
            <div className={css.mag_t}>
                 <img src={img20}/>
            </div>
