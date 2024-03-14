@@ -51,7 +51,8 @@ const CustomFooterComponent = props =>{
             </div> 
             <div className={classNames(css.flex_row, css.col_8,css.text_p)}>
                 <div className={classNames(css.flex_col)}><span className={css.headers}>Categories</span>
-                    <NamedLink {...landingPageProps} > Tops Pants</NamedLink>
+                    <NamedLink {...landingPageProps} > Tops</NamedLink>
+                    <NamedLink {...landingPageProps} > Pants</NamedLink>
                     <NamedLink {...landingPageProps} >Skirts</NamedLink>
                     <NamedLink {...landingPageProps} >Coats & Jackets</NamedLink>
                     <NamedLink {...landingPageProps} >Purses & Bags</NamedLink>
@@ -113,7 +114,8 @@ const CustomFooterComponent = props =>{
             </p>
 
              <div className={classNames(css.flex_col)}><span className={css.headers}>Categories</span>
-                    <NamedLink {...landingPageProps} > Tops Pants</NamedLink>
+                    <NamedLink {...landingPageProps} > Tops</NamedLink>
+                    <NamedLink {...landingPageProps} > Pants</NamedLink>
                     <NamedLink {...landingPageProps} >Skirts</NamedLink>
                     <NamedLink {...landingPageProps} >Coats & Jackets</NamedLink>
                     <NamedLink {...landingPageProps} >Purses & Bags</NamedLink>
