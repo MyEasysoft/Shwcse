@@ -275,6 +275,11 @@
   .mobile{
     display: none;
   }
+  .letter_space_10 {
+    letter-spacing: 10px;
+    line-height: 50px;
+    
+  }
   
   @media only screen and (max-width: 1024px) {
     .container{
@@ -299,6 +304,12 @@
     h3{
       font-size: 18px;
     }
+
+    .letter_space_10 {
+      letter-spacing: 10px;
+      line-height: 50px;
+    }
+
 
   }
 
@@ -364,8 +375,10 @@
   font-weight: bold;
   margin: 0 auto;
 }
-
-
+.letter_space_10 {
+  letter-spacing: 10px;
+  line-height: 50px;
+}
 
   }
    
