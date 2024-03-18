@@ -73,6 +73,10 @@ const CustomSectionComponent0 = props =>{
                                         {title}
                                     </h3>
                                 </div>
+
+                                <div className={css.action_btn_div}>
+                                        <NamedLink {...landingPageProps} className={css.action_btn2}>{callToActionText}</NamedLink>
+                                </div>
                                 
                             </div>
                           
@@ -80,9 +84,7 @@ const CustomSectionComponent0 = props =>{
                     </div>
 
                 </div>
-                <div className={css.action_btn_div}>
-                        <NamedLink {...landingPageProps} className={css.action_btn2}>{callToActionText}</NamedLink>
-                </div>
+               
                 <div className={css.container_partners}>
                     
                         <div className="slide"><img src={logo1}/></div>

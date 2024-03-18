@@ -19,7 +19,7 @@
   flex-direction: column;
   justify-content: space-between;
   bottom: 50px;
-  width: 450px;
+  width:  600px;
   height: fit-content;
   left: 7%;
   align-items: flex-start;
@@ -30,7 +30,7 @@
   position: relative;
   float: left;
   height: fit-content;
-  margin: 50px 7%;
+  margin: 50px 0%;
 }
 
 
@@ -409,7 +409,7 @@ h1,h2,h3,h4{
   position: absolute;
   bottom: 0px;
   right: 7%;
-  width: 40%;
+  width: 60%;
   height: auto;
   margin: 0px;
   padding: 0px;
