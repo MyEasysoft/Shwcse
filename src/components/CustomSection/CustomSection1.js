@@ -98,9 +98,9 @@ function CustomSectionComponent1(){
         
 
             <div className={css.mobile}>
-                    <h3 className={classNames( css.why_showcase)}>
+                    <h1 className={classNames( css.why_showcase)}>
                         Why Shwcse?
-                    </h3>
+                    </h1>
                     <img className={css.slidder2}  src={slidder2}/>
 
                     <div className={classNames(css.col12,css.border_radius_20,css.bg_light_gray) }>
