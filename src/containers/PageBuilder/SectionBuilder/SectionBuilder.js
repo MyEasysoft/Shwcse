@@ -151,14 +151,25 @@ const SectionBuilder = props => {
               ) :""}
 
               {index === 5? (
-                <CustomSectionComponent5
-                key={`${section.sectionId}_${index}`}
-                className={classes}
-                defaultClasses={DEFAULT_CLASSES}
-                isInsideContainer={isInsideContainer}
-                options={otherOption}
-                {...section}
-              />
+                <>
+                    <CustomSectionComponent5
+                      key={`${section.sectionId}_${index}`}
+                      className={classes}
+                      defaultClasses={DEFAULT_CLASSES}
+                      isInsideContainer={isInsideContainer}
+                      options={otherOption}
+                      {...section}
+                    />
+                    <CustomSectionComponent6
+                    key={`${section.sectionId}_${index}`}
+                    className={classes}
+                    defaultClasses={DEFAULT_CLASSES}
+                    isInsideContainer={isInsideContainer}
+                    options={otherOption}
+                    {...section}
+                  />
+                </>
+              
               ) :""}
 
               {index === 6? (

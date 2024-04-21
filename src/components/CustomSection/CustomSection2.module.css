@@ -339,10 +339,7 @@
   }
    
    @media only screen and (max-width: 412px) {
-    .carousel__btn{
-      height: 100px;
-      width: 100px;
-    }
+   
     .mobile{
       display: flex;
       flex-direction: column;
@@ -409,6 +406,11 @@
     transition: .5s;
     padding: -5px;
     
+  }
+
+  .carousel__btn{
+    height: 50px;
+    width: 50px;
   }
    
    }
@@ -416,10 +418,7 @@
    
    @media only screen and (max-width: 360px) {
 
-    .carousel__btn{
-      height: 100px;
-      width: 100px;
-    }
+    
     .mobile{
       display: flex;
       flex-direction: column;
@@ -486,6 +485,11 @@
     transition: .5s;
     padding: -5px;
     
+  }
+
+  .carousel__btn{
+    height: 50px;
+    width: 50px;
   }
    
    }
