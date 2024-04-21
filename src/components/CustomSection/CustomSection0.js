@@ -110,7 +110,7 @@ const CustomSectionComponent0 = props =>{
                 </div>
             
                 <div className={css.action_btn_div}>
-                    <NamedLink {...landingPageProps} className={css.action_btn2}>{callToActionText}</NamedLink>
+                    <NamedLink {...landingPageProps} className={css.action_btn2}>Discover Brands</NamedLink>
                 </div>
 
                
