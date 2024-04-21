@@ -70,12 +70,14 @@ const CustomSectionComponent0 = props =>{
 
                                 <div className={css.caption}>
                                     <h3>
-                                        {title}
+                                        EXPLORE THE NEWEST TRENDS AND EVERYTHING 
+                                        IN BETWEEN. ELEVATE BOTH YOUR WARDROBE
+                                        AND YOUR CONFIDENCE WITH OUR CURATED COLLECTIONS
                                     </h3>
                                 </div>
 
                                 <div className={css.action_btn_div}>
-                                        <NamedLink {...landingPageProps} className={css.action_btn2}>{callToActionText}</NamedLink>
+                                        <NamedLink {...landingPageProps} className={css.action_btn2}>Discover Brands</NamedLink>
                                 </div>
                                 
                             </div>
